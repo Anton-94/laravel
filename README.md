@@ -8,9 +8,12 @@
 3. Run `docker-compose up` for start docker containers.
 4. Run `docker-compose run php-cli bash` command for enter to `php-cli` container.
 5. Run `composer install` for install dependencies.
-5. Install migrations:
+6. Install migrations:
        
        php artisan migrate
+       
+7. Generate app key:
+        php artisan key:generate
       
 That's all.
 
