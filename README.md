@@ -13,7 +13,8 @@
        php artisan migrate
        
 7. Generate app key:
-        php artisan key:generate
+
+       php artisan key:generate
       
 That's all.
 
